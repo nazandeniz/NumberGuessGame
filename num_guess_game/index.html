@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NumberGuessGame</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <style>
+        body{background-color:azure;}
+
+    </style>
+</head>
+<body>
+
+    <div class = "container">
+        <hr style="color:black; border-width: 3px;">
+        <div class="row mt-1">
+        
+            <div class="col-md-3 mx-auto">
+                
+                <div class="card">
+
+                    <div class="card-body text-center">
+
+                        <input id="inputGuess" type="number" class="form-control"/>
+                        <button id="btnGuess" class="btn btn-primary text-center">Let's Guess!</button>
+
+                    </div>
+
+                    <div class="card-footer" id="messageDiv"></div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+      
+        <div class="row mt-2">
+
+            <div class="col-md-6 text-center">
+
+                <div class="card">
+
+                    <div class="card-body">
+
+                       <h2>LİVE</h2>
+
+                       <h1 id="HeaderRightToGuess">5</h1>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-6 text-center">
+
+                <div class="card">
+
+                    <div class="card-body">
+
+                        <h2>LEVEL</h2>
+
+                        <h1 id="headerLevel">1</h1>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row mt-5">
+
+            <div class="col-md-3 mx-auto">
+
+                <div class="card">
+
+                    <div class="card-body text-center" id="timer">
+                        
+                      
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+
+
+    </div>
+    <script src="site.js"></script>
+</body>
+</html>
